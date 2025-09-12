@@ -1,4 +1,3 @@
-// 
 import React from "react";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -17,29 +16,29 @@ const Footer = () => {
           <YouTubeIcon />
         </div>
 
-        <div className="footer-links-grid">
-          <div className="footer-column">
+        <div className="footer-links-list">
+          <div className="footer-section">
             <ul>
               <li>Audio Description</li>
               <li>Investor Relations</li>
               <li>Legal Notices</li>
             </ul>
           </div>
-          <div className="footer-column">
+          <div className="footer-section">
             <ul>
               <li>Help Center</li>
               <li>Jobs</li>
               <li>Cookie Preferences</li>
             </ul>
           </div>
-          <div className="footer-column">
+          <div className="footer-section">
             <ul>
               <li>Gift Cards</li>
               <li>Terms of Use</li>
               <li>Corporate Information</li>
             </ul>
           </div>
-          <div className="footer-column">
+          <div className="footer-section">
             <ul>
               <li>Media Center</li>
               <li>Privacy</li>
@@ -47,12 +46,13 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-
-        <div className="copyright">© 1997_2025 Netflix, Inc.</div>
+        <div className="service-code">
+          <p>Service Code</p>
+        </div>
+        <div className="copyright">© 1997-2025 Netflix, Inc.</div>
       </div>
     </footer>
   );
 };
 
-
-export default Footer
+export default Footer;

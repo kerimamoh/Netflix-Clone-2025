@@ -43,14 +43,3 @@
   cursor: pointer;
 }
 
-/* @media screen and (max-width: 576px) {
-  .header_container ul li:not(:first-child) {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 577px) {
-  .header_right ul li:first-child {
-    display: none;
-  } */
-/* } */
