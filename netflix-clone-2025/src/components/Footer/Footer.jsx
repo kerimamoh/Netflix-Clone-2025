@@ -7,7 +7,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer-outer-container">
+    <div className="footer-outer-container">
       <div className="footer-inner-container">
         <div className="footer-icons">
           <FacebookOutlinedIcon />
@@ -15,30 +15,30 @@ const Footer = () => {
           <TwitterIcon />
           <YouTubeIcon />
         </div>
-
-        <div className="footer-links-list">
-          <div className="footer-section">
+        <div className="footer_data">
+          <div>
             <ul>
               <li>Audio Description</li>
               <li>Investor Relations</li>
               <li>Legal Notices</li>
             </ul>
           </div>
-          <div className="footer-section">
+          <div>
             <ul>
               <li>Help Center</li>
               <li>Jobs</li>
               <li>Cookie Preferences</li>
             </ul>
           </div>
-          <div className="footer-section">
+
+          <div>
             <ul>
               <li>Gift Cards</li>
               <li>Terms of Use</li>
               <li>Corporate Information</li>
             </ul>
           </div>
-          <div className="footer-section">
+          <div>
             <ul>
               <li>Media Center</li>
               <li>Privacy</li>
@@ -46,12 +46,14 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="service-code">
-          <p>Service Code</p>
+
+        <div className="service_code">
+          <p> service Code</p>
         </div>
-        <div className="copyright">© 1997-2025 Netflix, Inc.</div>
+
+        <div className="copyright">&copy;2025 Netflix, All rights Reserved</div>
       </div>
-    </footer>
+    </div>
   );
 };
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "../../utils/axios";
 import requests from "../../utils/requests";
-import "./banner.css";
+import "./Banner.css";
 
 const Banner = () => {
   const [movie, setMovie] = useState({});
@@ -43,7 +43,7 @@ const Banner = () => {
           <button className="banner_button">My List</button>
         </div>
         <h1 className="banner_description">
-          {truncate(movie?.overview, 150)}/{" "}
+          {truncate(movie?.overview, 150)}/{""}
         </h1>
       </div>
       <div className="banner_fadeBottom"></div>
